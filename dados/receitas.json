@@ -1,0 +1,89 @@
+{
+    "receita": [
+        {
+            "titulo": "Bolo de Cenoura",
+            "tempo_preparo": 60,
+            "porcoes": 8,
+            "ingredientes": [
+                {
+                    "ingrediente": "Cenoura",
+                    "quantidade": "2 unidades"
+                },
+                {
+                    "ingrediente": "Açúcar",
+                    "quantidade": "2 xícaras"
+                },
+                {
+                    "ingrediente": "Farinha de trigo",
+                    "quantidade": "2 xícaras"
+                },
+                {
+                    "ingrediente": "Ovo",
+                    "quantidade": "3 unidades"
+                },
+                {
+                    "ingrediente": "Óleo",
+                    "quantidade": "1 xícara"
+                },
+                {
+                    "ingrediente": "Fermento em pó",
+                    "quantidade": "1 colher de sopa"
+                }
+            ]
+        },
+        {
+            "titulo": "Pudim de Leite",
+            "tempo_preparo": 90,
+            "porcoes": 6,
+            "ingredientes": [
+                {
+                    "ingrediente": "Leite condensado",
+                    "quantidade": "1 lata"
+                },
+                {
+                    "ingrediente": "Leite",
+                    "quantidade": "2 latas"
+                },
+                {
+                    "ingrediente": "Ovo",
+                    "quantidade": "3 unidades"
+                },
+                {
+                    "ingrediente": "Açúcar",
+                    "quantidade": "1 xícara"
+                },
+                {
+                    "ingrediente": "Essência de baunilha",
+                    "quantidade": "a gosto"
+                }
+            ]
+        },
+        {
+            "titulo": "Salada de Frutas",
+            "tempo_preparo": 15,
+            "porcoes": 4,
+            "ingredientes": [
+                {
+                    "ingrediente": "Maçã",
+                    "quantidade": "1 unidade"
+                },
+                {
+                    "ingrediente": "Banana",
+                    "quantidade": "2 unidades"
+                },
+                {
+                    "ingrediente": "Laranja",
+                    "quantidade": "1 unidade"
+                },
+                {
+                    "ingrediente": "Uva",
+                    "quantidade": "1 cacho"
+                },
+                {
+                    "ingrediente": "Mel",
+                    "quantidade": "a gosto"
+                }
+            ]
+        }
+    ]
+}
