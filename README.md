@@ -20,24 +20,30 @@
 
 ## Estrutura do Projeto
 
-```
-PythonTeoria_BibliotecaPandas-main/
+PANDAS/
 │
-├── dados/
-│   ├── dados.csv                # Base de dados com vendas (produto, categoria, preço etc.)
-│   └── receitas.json            # Arquivo JSON com receitas e ingredientes
+├── dados/                             # Conjunto de arquivos utilizados para as análises
+│   ├── classificacao_campeonato.xlsx  # Planilha Excel com dados de campeonato
+│   ├── dados.csv                      # Base de dados com informações de vendas
+│   ├── receitas.json                  # Arquivo JSON com receitas e seus ingredientes
+│   └── vendas_categoria.csv           # CSV com categorias de produtos e vendas
 │
-├── ecommerce.db                 # Banco SQLite gerado via SQLAlchemy
+├── ecommerce.db                       # Banco de dados SQLite gerado via SQLAlchemy
 │
-├── imagens/
-│   └── (GIFs ou prints utilizados nos notebooks)
+├── 1.series.ipynb                     # Introdução a Series com Pandas
+├── 2.dataframe.ipynb                  # Criação e manipulação de DataFrames
+├── 3.analise.ipynb                    # Análises iniciais de dados
+├── 4.operacoes_df.ipynb               # Operações e transformações com DataFrames
+├── 5.importa_csv.ipynb                # Importação e leitura de arquivos CSV
+├── 6.analise_csv.ipynb                # Análise de dados importados de CSV
+├── 7.criarplanilha.ipynb              # Criação e exportação de planilhas Excel
+├── 8.analise_planilha.ipynb           # Leitura e análise de arquivos Excel
+├── 9.cria_json.ipynb                  # Criação de arquivos JSON com Pandas
+├── 10.importa_json.ipynb              # Importação e leitura de arquivos JSON
+├── 11.analisa_json.ipynb              # Análise dos dados importados de JSON
+├── 12.bd.ipynb                        # Integração com banco de dados SQLite
 │
-├── notebooks/
-│   ├── analise_receitas.ipynb   # Análise dos dados do arquivo receitas.json
-│   └── vendas_sqlite.ipynb      # Leitura de dados de vendas e inserção no banco de dados
-│
-├── README.md                    # Este arquivo
-└── requirements.txt             # Dependências do projeto
+└── README.md                          # Documentação do projeto
 ```
 
 ## Pré-Requisitos
