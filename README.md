@@ -1,24 +1,6 @@
-Projeto: Análise de Dados com Pandas e Integração com SQL
-Este projeto apresenta conceitos fundamentais da biblioteca Pandas, manipulação de arquivos .csv e .json, além da integração com banco de dados SQLite utilizando SQLAlchemy. É ideal para iniciantes que desejam aprender análise de dados com Python em um fluxo real de trabalho.
+## Estrutura do Projeto
 
-Visão Geral
-
-Você aprenderá a:
-
-Ler e transformar dados com Pandas
-
-Explorar e criar arquivos JSON
-
-Carregar e analisar vendas em CSV
-
-Inserir dados em banco de dados SQLite com SQLAlchemy
-
-Criar visualizações e análises úteis
-
-Estrutura do Projeto
-bash
-Copiar
-Editar
+```
 PythonTeoria_BibliotecaPandas-main/
 │
 ├── dados/
@@ -36,56 +18,55 @@ PythonTeoria_BibliotecaPandas-main/
 │
 ├── README.md                    # Este arquivo
 └── requirements.txt             # Dependências do projeto
-Pré-Requisitos
-Python 3.10+
+```
 
-Pip instalado
+## Pré-Requisitos
 
-Ambiente virtual (recomendado)
+- Python 3.10+
+- Pip instalado
+- Ambiente virtual (recomendado)
 
-Instalação
-bash
-Copiar
-Editar
+## Instalação
+
+```bash
 git clone https://github.com/seu-usuario/PythonTeoria_BibliotecaPandas.git
 cd PythonTeoria_BibliotecaPandas
 python -m venv venv
 source venv/bin/activate  # ou venv\Scripts\activate no Windows
 pip install -r requirements.txt
-Funcionalidades
-1. Análise de Receitas
+```
 
-No notebook analise_receitas.ipynb, você irá:
+## Funcionalidades
 
-Carregar receitas de um JSON
+### 1. Análise de Receitas
 
-Calcular o número total de ingredientes por receita
+No notebook `analise_receitas.ipynb`, você irá:
 
-Gerar um DataFrame organizado para análise
+- Carregar receitas de um JSON
+- Calcular o número total de ingredientes por receita
+- Gerar um DataFrame organizado para análise
 
-2. Importação e Armazenamento de Vendas
-No notebook vendas_sqlite.ipynb, você aprenderá a:
+### 2. Importação e Armazenamento de Vendas
 
-Ler um arquivo CSV contendo dados de vendas
+No notebook `vendas_sqlite.ipynb`, você aprenderá a:
 
-Criar conexão com SQLite usando SQLAlchemy
+- Ler um arquivo CSV contendo dados de vendas
+- Criar conexão com SQLite usando SQLAlchemy
+- Inserir os dados em uma tabela do banco de dados
 
-Inserir os dados em uma tabela do banco de dados
+## Bibliotecas Utilizadas
 
-Bibliotecas Utilizadas
-pandas
+- pandas
+- sqlalchemy
+- sqlite3 (via SQLAlchemy)
+- jupyter (para notebooks)
 
-sqlalchemy
+## Execução
 
-sqlite3 (via SQLAlchemy)
-
-jupyter (para notebooks)
-
-Execução
 Abra os notebooks com:
 
-bash
-Copiar
-Editar
+```bash
 jupyter notebook
+```
+
 Execute cada célula sequencialmente para acompanhar os exemplos e análises.
