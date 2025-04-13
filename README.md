@@ -1,5 +1,6 @@
-### Projeto: Análise de Dados com Pandas e Integração com SQL
-# Este projeto apresenta conceitos fundamentais da biblioteca Pandas, manipulação de arquivos .csv e .json, além da integração com banco de dados SQLite utilizando SQLAlchemy. É ideal para iniciantes que desejam aprender análise de dados com Python em um fluxo real de trabalho.
+## Projeto: Análise de Dados com Pandas e Integração com SQL
+
+ - Este projeto apresenta conceitos fundamentais da biblioteca Pandas, manipulação de arquivos .csv e .json, além da integração com banco de dados SQLite utilizando SQLAlchemy. É ideal para iniciantes que desejam aprender análise de dados com Python em um fluxo real de trabalho.
 
 ## Visão Geral
 
